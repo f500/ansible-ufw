@@ -1,0 +1,11 @@
+---
+
+- name: install ufw
+  apt: pkg=ufw state=present
+
+- name: enable ufw
+  lineinfile: dest=/etc/ufw/ufw.conf regexp='^ENABLED=' line='ENABLED="yes"'
+
+- name: start ufw
+  service: name=ufw enabled=yes state=started
+  register: started_ufw
