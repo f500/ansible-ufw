@@ -6,7 +6,7 @@ Install UWF (Uncomplicated Firewall)
 Requirements
 ------------
 
-Debian Wheezy/Jessie with the package python-pycurl and python-software-properties installed.
+Debian Wheezy/Jessie/Stretch with the package python-pycurl and python-software-properties installed.
 
 Example Playbook
 -------------------------
@@ -18,7 +18,7 @@ Example Playbook
 License
 -------
 
-LGPL.
+LGPL-3.0
 
 Author Information
 ------------------
