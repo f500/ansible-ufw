@@ -18,7 +18,7 @@ Example Playbook
 License
 -------
 
-LGPL.
+LGPL-3.0
 
 Author Information
 ------------------
