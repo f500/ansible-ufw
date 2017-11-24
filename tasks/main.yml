@@ -5,6 +5,11 @@
     name: ufw
     state: present
 
+- name: allow ssh before enabling
+  ufw:
+    rule: allow
+    port: "{{ ufw_ssh_port }}"
+
 - name: enable and start ufw
   ufw:
     state: enabled
